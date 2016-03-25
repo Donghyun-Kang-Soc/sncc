@@ -42,13 +42,12 @@ class Sncc_converter:
         print("Done")
         f.close()
         out_put.close()
-    
-    def edgelist_self_erase(input_f, output_f, sep):
-        pass
-
     """
     self_loop 제거기
     """
+    
+    def edgelist_self_erase(input_f, output_f, sep):
+        pass
     @staticmethod
     def edgelist_to_net():
         print ('yes')
