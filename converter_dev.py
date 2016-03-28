@@ -41,9 +41,9 @@ class Sncc_converter:
     """
     self_loop 제거기
     """
-    
+    @staticmethod
     def edgelist_self_erase(input_f, output_f, sep):
-        pass
+        
     @staticmethod
     def edgelist_to_net():
         print ('yes')
