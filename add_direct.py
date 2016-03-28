@@ -38,3 +38,5 @@ Source	Target	Type	Weight
 .
 .
 """
+if __name__ == "__main__":
+    add_direct ('input_sample.txt', 'output_sample.txt', directed = 'True', sep = '\t')
