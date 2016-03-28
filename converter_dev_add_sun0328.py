@@ -4,6 +4,7 @@ Created on Mon Mar 28 15:54:51 2016
 
 @author: user
 """
+# 아래에 추가된 부분을 표시해놓았음.
 
 class Sncc_converter:
     @staticmethod
@@ -33,7 +34,7 @@ class Sncc_converter:
             splited_2 = line.split(edge_sep)
             
             """
-        아래 부분이 추가된 부분:
+        여기 아래 부분이 추가된 부분(line 42 ~ line 46):
         self-loop 를 제외한 부분만 output_f 에 쓰도록
         splited_2[0] != splited_2[1] 인 경우만 딕셔너리를 참조하여 값을 찾게함.            
             """
