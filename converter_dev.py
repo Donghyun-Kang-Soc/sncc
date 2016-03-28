@@ -1,9 +1,3 @@
-"""
-1번 작업(1)
-- node키(번호)와 값("단어")을 갖는 dictionary "node_dict" 생성.
-- break문을 쓰는 대신, '\t'을 포함하는 경우만 돌도록 하여 *vertices부분 분리
-"""
-
 class Sncc_converter:
     @staticmethod
     def net_to_edgelist(input_f, output_f, sep = "\t"):
