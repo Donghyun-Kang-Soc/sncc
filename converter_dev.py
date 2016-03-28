@@ -1,3 +1,5 @@
+import add_direct
+
 class Sncc_converter:
     @staticmethod
     def net_to_edgelist(input_f, output_f, sep = "\t"):
