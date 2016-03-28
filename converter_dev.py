@@ -45,24 +45,6 @@ class Sncc_converter:
     @staticmethod
     def edgelist_to_net():
         print ('yes')
-    
-    def edge_to_gephi_edge(input_f, output_f, directed = False, sep = '\t')
-        o = open(output, 'w')
-        o.write('Source\tTarget\tType\tWeight\n')
-        for line in open(input, 'r'):
-            splited = line.split(sep)
-            splited.append(splited[2])
-            if directed == 'False':
-                splited[2] = 'Undirected'
-            else :
-                splited[2] = 'Directed'
-            splited[3] = splited[3].strip('\n')
-            for k in range(0, 4):
-                o.write(splited[k])
-                o.write('\t')
-            o.write('\n')
-        i.close()
-        o.close()
 	
 if __name__ == "__main__":
     Sncc_converter.net_to_edgelist('vignett130_network_1.net', 'test_130.txt')
